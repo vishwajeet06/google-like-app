@@ -5,7 +5,7 @@ import Footer from "./api/components/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col justify-center h-screen">
       <Head>
         <title>Google</title>
       </Head>
@@ -14,7 +14,7 @@ export default function Home() {
       {/* body */}
       <Body />
 
-      {/* footer */ }
+      {/* footer */}
       <Footer />
     </div>
   );
