@@ -27,7 +27,7 @@ function Sheader() {
           onClick={() => router.push("/")}
           className="cursor-pointer "
         />
-        <form className="flex border flex-grow border-gray-200 rounded-full shadow-lg max-w-3xl items-center px-6 py-3 ml-10 mr-3">
+        <form className="flex border flex-grow border-gray-200 rounded-full shadow-lg max-w-3xl items-center px-6 py-1 ml-10 mr-3">
           <input
             type="text"
             ref={searchInputRef}
