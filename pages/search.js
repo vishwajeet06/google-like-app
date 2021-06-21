@@ -2,8 +2,8 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { API_KEY, CONTEXT_KEY } from "../keys";
 import Response from "../Response";
-import Sheader from "./components/Sheader";
-import Sresults from "./components/Sresults";
+import Sheader from "../components/Sheader";
+import Sresults from "../components/Sresults";
 
 function Search({ results }) {
   const router = useRouter();

@@ -12,7 +12,7 @@ function Sresults({ results }) {
       {results.items?.map((result) => (
         <div key={result.link} className="mb-8 max-w-xl">
           <div className="group">
-            <a href={result.link} className="text-sm">
+            <a href={result.link} className="text-sm line-clamp-1">
               {result.formattedUrl}
             </a>
             <a href={result.link}>
@@ -23,8 +23,8 @@ function Sresults({ results }) {
           </div>
           <p className="line-clamp-2">{result.snippet}</p>
         </div>
-      ) ) }
-          <Pagination />
+      ))}
+      <Pagination />
     </div>
   );
 }
