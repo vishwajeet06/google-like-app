@@ -18,6 +18,7 @@ function Body() {
   return (
     <form className="flex flex-col items-center mt-44 flex-grow">
       <Image
+        alt="avatar"
         src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
         width={300}
         height={100}
@@ -36,7 +37,7 @@ function Body() {
           Google Search
         </button>
         <button className="btn" onClick={search}>
-          I'm Feeling Lucky
+          I am Feeling Lucky
         </button>
       </div>
     </form>

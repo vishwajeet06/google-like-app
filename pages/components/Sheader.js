@@ -26,6 +26,7 @@ function Sheader() {
           width={120}
           onClick={() => router.push("/")}
           className="cursor-pointer "
+          alt="avatar"
         />
         <form className="flex border flex-grow border-gray-200 rounded-full shadow-lg max-w-3xl items-center px-6 py-1 ml-10 mr-3">
           <input
@@ -43,9 +44,12 @@ function Sheader() {
             Search
           </button>
         </form>
-        <Avatar className='ml-auto' url="https://lh3.googleusercontent.com/ogw/ADea4I6EE_SSK87UfQHxS9KLWz7_nBvsMZ9CC-HtVv2YPA=s32-c-mo" />
-          </div>
-          <Soption />
+        <Avatar
+          className="ml-auto"
+          url="https://lh3.googleusercontent.com/ogw/ADea4I6EE_SSK87UfQHxS9KLWz7_nBvsMZ9CC-HtVv2YPA=s32-c-mo"
+        />
+      </div>
+      <Soption />
     </header>
   );
 }
