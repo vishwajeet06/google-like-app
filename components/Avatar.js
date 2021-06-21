@@ -7,8 +7,8 @@ function Avatar({ url, className }) {
       loading="lazy"
       src={url}
       alt="pic"
-      height={10}
-      width={10}
+      height={40}
+      width={40}
       className={`h-10 rounded-full cursor-pointer transition duration-150 hover:scale-110 ${className}`}
     />
   );
