@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Header from "./api/components/Header";
+import Body from "./api/components/Body";
+import Footer from "./api/components/Footer";
 
 export default function Home() {
   return (
@@ -10,8 +12,10 @@ export default function Home() {
       {/* header */}
       <Header />
       {/* body */}
+      <Body />
 
-      {/* footer */}
+      {/* footer */ }
+      <Footer />
     </div>
   );
 }
